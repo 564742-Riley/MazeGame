@@ -707,7 +707,7 @@ Transform:
   m_GameObject: {fileID: 302518837}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -59.7266, y: 13.66, z: 122.5931}
+  m_LocalPosition: {x: -60.354996, y: 13.66, z: 122.5931}
   m_LocalScale: {x: 2.7227333, y: 29.69334, z: 124.98942}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1914,6 +1914,9 @@ MonoBehaviour:
   m_RotationSpeed: 5
   m_DetectionRange: 60
   m_AttackRange: 1
+  m_ObstacleMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &593157324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2896,7 +2899,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1435747132
 BoxCollider:
   m_ObjectHideFlags: 0
